@@ -64,9 +64,9 @@ angular.module('storeApp', [])
           }
     }).
       then(function(response) {
-        $location.path("eartear.com.au/success.html");
+        $location.path("https://eartear.com.au/success.html");
       }, function(response) {
-        $location.path("eartear.com.au/error.html");
+        $location.path("https://eartear.com.au/error.html");
     });
 
   };
