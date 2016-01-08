@@ -15,12 +15,12 @@ angular.module('storeApp', [])
 
   var getMetadata = function() {
     var metadata = {};
-    metadata.givenName = $scope.givenName;
-    metadata.lastName = $scope.lastName;
-    metadata.email = $scope.email;
-    metadata.address = $scope.street;
-    metadata.city = $scope.city;
-    metadata.postcode = $scope.postcode;
+    //metadata.givenName = $scope.givenName;
+    //metadata.lastName = $scope.lastName;
+    //metadata.email = $scope.email;
+    //metadata.address = $scope.street;
+    //metadata.city = $scope.city;
+    //metadata.postcode = $scope.postcode;
     metadata.quantity = $scope.qty.value;
     return metadata;
   }
@@ -83,6 +83,7 @@ angular.module('storeApp', [])
       // key: 'pk_test_q8NAb1ewbs64MPgELxVLCC1K',
       image: 'img/navlogo-blue.png',
       color: 'blue',
+      shippingAddress: true,
       token: function(token, args) {
         onTokenRecv(token, args);
       }
@@ -92,6 +93,7 @@ angular.module('storeApp', [])
       stripeHandler.open({
         name: 'EarTear',
         description: 'micro headphone',
+        success_redirect_url:"http://darcys22.github.io/eartear/success.html",
         amount: getAmountCents()
       });
     }
