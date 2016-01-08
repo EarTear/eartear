@@ -1,0 +1,2 @@
+https://github.com/melangepastrylab/melangepastrylab.github.io
+https://github.com/mericsson/heroku-stripe-checkout

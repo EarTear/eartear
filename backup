@@ -1,0 +1,543 @@
+<!doctype html>
+<html ng-app="storeApp">
+	<head>
+		<title>EarTear - The Future is now.</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Eartear micro earphone">
+    <meta name="author" content="Sean Darcy <darcys22@gmail.com>">
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/superslides.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/icons.css">
+		<link rel="stylesheet" href="css/animate.min.css">
+		<link rel="stylesheet" href="css/blue.css" class="colors">
+		<link rel="shortcut icon" href="img/ico/32.png" sizes="32x32" type="image/png"/>
+		<link rel="apple-touch-icon-precomposed" href="img/ico/60.png" type="image/png"/>
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/ico/72.png" type="image/png"/>
+		<link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/ico/120.png" type="image/png"/>
+		<link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/ico/152.png" type="image/png"/>
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body id="home">
+		<div id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#home">
+						<img id="navlogo" src="img/navlogo-blue.png" width="122" height="45">
+					</a>
+
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul id="navigation" class="nav navbar-nav navbar-right text-center">
+						<li><a href="#products">Products</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#testimonial">Happy Customers</a></li>
+						<li><a href="#orderform">Order</a></li>
+						<li><a href="#contact">Contact</a></li>
+
+						</li>
+
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+		<section id="hero" class="light-typo ">
+			<div class="container welcome-content">
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 text-center wow fadeInUp">
+						<img id="logo" src="img/logo-blue.png" class="img-responsive text-center" alt="shop logo" width="300">
+						<h2>The Future has arrived. <br> From the first touch, Everything that headphones could never do. One button, unlimited capabilities. <br> The EarTear : Bring your music to life. 
+</h2>
+						<ul class="social-links text-center">
+
+							<li><a href="http://facebook.com/TheEarTear"><i class="icon-facebook"></i></a></li>
+	
+						</ul>
+						<a class="btn btn-store smooth-scroll" href="#products">browse the goods</a>
+					</div>
+				</div>
+			</div>
+			<div class="overlay-bg"></div>
+			<div id="hero-slides">
+				<div class="slides-container">
+					<img src="img/01.jpg" alt="">
+					<img src="img/06.jpg" alt="">
+					<img src="img/10.jpg" alt="">
+				</div>
+			</div>
+		</section>
+
+		<section id="products" class=" padding-top-bottom">
+			<div class="container">
+				<header class="section-header text-center wow fadeInUp">
+					<h2>Products</h2>
+				</header>
+			</div>
+			<div class="container">
+				<div id="projects-container" class="row">
+					<article class="design product col-xs-12 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+						<div class="img-box">
+							<div class="hover-mask2"></div>
+							<span class="product-icon icon-eye"></span>
+							<img class="img-responsive project-image" src="img/product1.jpg" alt="">
+						</div>
+						<div class="product-info col-md-12">
+							<p class="project-price">$49.95</p>
+							<div>
+								<h4 class="project-title">EarTear</h4>
+							</div>
+						</div>
+						<div class="sr-only project-description"  data-oldprice="$49.95" data-images="img/01.jpg,img/06.jpg,img/10.jpg">
+							<p>The EarTear has a compact and ultra tiny design that has been sculpted to the shape of the ear for increased comfort. The high-fidelity inner ear speakers have been designed to minimize sound loss and maximize sound quality. Producing that high-quality audio you are accustomed to, with none of that nuisance cord business.
+Set and forget: So light that if it wasn’t making noise, you would forget you have an EarTear in your ear! <br> <br>
+Additional Features Include:<br><br>
+A simple main button that lets you power on, pair with devices, play & pause music, control playback of music and video, answering and ending incoming calls as well as the ability to redial; <br><br>
+Real time battery status with low power reminders; <br><br>
+Connection, disconnection & Incoming phone call notices; <br><br>
+3 hours battery life while listening to music, fast charging via USB in 1 hour; <br><br>
+Compatible with Samsung and Iphones as well as almost all other major phone brands, can work simultaneously with a smart watch to initiate and complete a phone call completely hands free. <br>
+
+						</div>
+					</article>
+				
+				</div>
+			</div>
+
+			<div id="project-modal" class="modal " style="display: none;" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<a class="close" href="#" data-dismiss="modal" ><i class="icon-close"></i></a>
+							<div class="loader" style="display: block;"></div>
+							<div class="screen"></div>
+						</div>
+						<div class="modal-body">
+							<div class="container">
+								<div class="row">
+									<div id="project-sidebar" class="col-md-4 ">
+										<h2 id="sdbr-title">Flat UI-Kit</h2>	
+										<div>
+											<div id="sdbr-price">200</div>
+											<div id="sdbr-oldprice">500</div>
+										</div>
+									</div>
+									<div id="project-content" class="col-md-8 ">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="gray-bg padding-top-bottom ">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 wow fadeInLeft">
+						<h3 class="center cta-message"> Limited Stock Available! Buy now to avoid shipping delays.</h3>
+
+					</div>
+					<div class="col-md-4 text-center wow fadeInRight">
+						<a class="btn btn-store cta-button smooth-scroll" href="#orderform" >Order Now</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="about" class="padding-top-bottom ">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 wow fadeInLeft">
+						<header class="section-header cta-message">
+							<h2>EarTear</h2>
+							<h4>What it's all about</h4>
+						</header>
+					</div>
+					<div class="col-md-8 cta-message wow fadeInUp">
+						<p>
+						The EarTear has a compact and ultra tiny design that has been sculpted to the shape of the ear for increased comfort. The high-fidelity inner ear speakers have been designed to minimize sound loss and maximize sound quality. Producing that high-quality audio you are accustomed to, with none of that nuisance cord business.
+Set and forget: So light that if it wasn’t making noise, you would forget you have an EarTear in your ear! <br> <br>
+Additional Features Include:
+
+						
+</p>
+						<p style="display:none;" id="showme">
+A simple main button that lets you power on, pair with devices, play & pause music, control playback of music and video, answering and ending incoming calls as well as the ability to redial; <br><br>
+Real time battery status with low power reminders; <br><br>
+Connection, disconnection & Incoming phone call notices; <br><br>
+3 hours battery life while listening to music, fast charging via USB in 1 hour; <br><br>
+Compatible with Samsung and Iphones as well as almost all other major phone brands, can work simultaneously with a smart watch to initiate and complete a phone call completely hands free. <br>
+</p>
+						<a class="btn btn-store outline" id="show-btn" href="#">Read more</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="testimonial" class="padding-top-bottom image-bg light-typo">
+			<div class="container">
+				
+				<div class="testimonial">
+					<div id="carousel-example-generic" class="carousel slide bs-docs-carousel-example" data-interval="10000">
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+							<li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+							<li data-target="#carousel-example-generic" data-slide-to="3" class=""></li>
+							<li data-target="#carousel-example-generic" data-slide-to="4" class=""></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="item active">
+							<h1>Pairing was as easy as any other device I'd ever paired in the past; held the button until the red/blue flashed (about 4-5 seconds), it showed up on my phone, hit paired, done in less than a minute...</h1>
+								<br>
+								<h3>Pleasantly Surprised</h3>
+							</div>	
+
+								
+							<div class="item">
+								<h1>One reason I purchased this was because it was the only ear piece that didn't protrude out of my ear preventing me from wearing a head band, beanie, or leaving it in while I slept for my alarm.</h1>
+								<br>
+								<h3>Isaac Vincent</h3>
+							</div>
+							<div class="item">
+								<h1>Just what I needed...a discreet earbud that fits perfect in my ear. Paired easily with my Samsung S5. Sound quality is good for the phone and music.</h1>
+								<br><br><br>
+								<h3>Chet Herman</h3>
+							</div>
+							<div class="item">
+							<h1><br>These days I laugh at people untangling their headphones.</h1>
+								<br><br><br>
+								<h3>Rudy Kendal</h3>
+							</div>							
+							<div class="item">
+								<h1><br>Pairing is easy, charging is easy, battery last several hours of steady use, sound is good & clear.</h1>
+								<br>
+								<h3>Charlotte Broadbent</h3>
+							</div>
+							
+							
+						</div>
+						<br><br><br>
+					</div>
+				</div>
+				<div class="overlay-bg"></div>
+			</div>
+		</section>
+
+		<section id="newsletter" class="light-typo dark-bg padding-top-bottom">
+			<div class="container ">
+				<header class="section-header text-center">
+					<h2>EarTear: Be the first to know</h2>
+					<h4>Sign Up for Email Updates to be the first to hear about new products.</h4>
+				</header>
+				<div class="row">
+					<form id="newsletter-form" action="index.html" method="POST" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 ">
+						<div class="input-group">
+							<input id="newsletter-mail" name="email" placeholder="Enter your email" ng-model="email" class="form-control input-lg" type="email" >
+							<span class="input-group-btn">
+								<button name="submit" type="submit" class="btn btn-store">Subscribe!</button>
+							</span>
+						</div>
+						<input type="hidden" name="submitted" id="submitted2" value="true">
+					</form>
+				</div>
+			</div>
+		</section>	
+
+		<section id="orderform" class="gray-bg padding-top-bottom" ng-controller="orderController">
+			<div class="container">
+				<header class="section-header text-center">
+					<h2>Order Form</h2>
+				</header>
+				<form action="index.html" ng-submit="openStripeHandler" novalidate id="order-form">
+					<div class="row">
+						<div class="col-sm-12 col-md-12">
+						<table class="table">
+						  <thead>
+							<tr>
+							  <th>Product</th>
+							  <th>Unit Cost</th>
+							  <th class="text-center">
+							  <span class="hidden-xs">Quantity</span>
+							  <span class="visible-xs">QNT</span>
+							  </th>
+							  <th class="text-right">Total</th>
+							</tr>
+						  </thead>
+						  <tbody>
+							<tr>
+							  <td class="vert-align">EarTear</td>
+							  <td class="vert-align">{{ 49.95 | currency:"$":2 }}</td>
+							  <td class="text-center">
+								<select class="form-control form-control-inline" ng-model="qty" ng-options="opt as opt.label for opt in options"></select>
+							  </td>
+							  <td class="text-right vert-align">{{ qty.value * 49.95 | currency:"$":2  }}</td>
+							</tr>							
+						<!-- 	<tr>
+							  <td class="vert-align">Portable Charger</td>
+							  <td class="vert-align">{{ 74.95 | currency:"$":2  }}</td>
+							  <td class="text-center">
+								<select class="form-control form-control-inline" ng-model="myNightstand" ng-options="opt as opt.label for opt in options"></select>
+							  </td>
+							  <td class="text-right vert-align">{{ myNightstand.value * 59.95 | currency:"$":2  }}</td>
+							</tr>							
+							<tr>
+							  <td class="vert-align">Plus Pack</td>
+							  <td class="vert-align">{{ 99.95 | currency:"$":2  }}</td>
+							  <td class="text-center">
+								<select class="form-control form-control-inline" ng-model="myHammock" ng-options="opt as opt.label for opt in options"></select>
+							  </td>
+							  <td class="text-right vert-align">{{ myHammock.value * 89.95 | currency:"$":2  }}</td>
+							</tr> -->
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						  </tbody>
+						</table>
+						</div>	
+
+					<div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 contact-info">
+            <div class="row">
+              <div class="col-sm-8 col-md-8">
+						</div>	
+
+						<p class="text-center"><strong>Information</strong></p>
+						<div class="row">
+							<div class="col-sm-6 col-md-6">
+								<div class="form-group">
+									<label class="control-label">Name</label>
+									<input name="First name" placeholder="First name" ng-model="givenName" class="form-control input-lg" type="text" ng-required="true">
+								</div>
+							</div>
+							<div class="col-sm-6 col-md-6">
+								<div class="form-group">
+									<label class="control-label">Last Name</label>
+									<input name="Last name" placeholder="Last name" ng-model="lastName" class="form-control input-lg" type="text" ng-required="true">
+								</div>
+							</div>
+						</div>
+						<!--<div class="form-group">-->
+							<!--<label class="control-label" >Email</label>-->
+							<!--<input name="email" placeholder="Your email" ng-model="email" class="form-control input-lg" type="email" ng-required="true">-->
+						<!--</div>	-->
+						<p class="text-center"><strong>Delivery address</strong></p>
+						<div class="form-group">
+							<label class="control-label">Street</label>
+							<input name="street" placeholder="Street address" ng-model="street"class="form-control" type="text" ng-required="true">
+						</div>	
+						<div class="form-group">
+							<label class="control-label">City</label>
+							<input name="city" placeholder="City" ng-model="city"class="form-control" type="text" ng-required="true">
+						</div>	
+						<div class="form-group">
+							<label class="control-label">Country</label>
+							<label class="control-label">Australia</label>
+							<!--<input name="Country" placeholder="Country" ng-model="lastName"class="form-control" type="text">-->
+						</div>							
+						<div class="form-group">
+							<label class="control-label">postcode</label>
+							<input name="postcode" placeholder="Post code" ng-model="postcode" class="form-control" type="text" ng-required="true">
+						</div>					
+
+						<table class="table">
+						  <thead>
+							<tr>
+							  <th colspan="3" class="text-center">Order Summery</th>
+							</tr>
+						  </thead>
+						  <tbody>
+							<tr>
+							  <td>Shipping cost:</td>
+							  <td></td>
+							  <td class="text-right">Free</td>
+							</tr>
+							<tr>
+							  <td>Total:</td>
+							  <td></td>
+							  <td id="total" class="text-right">{{ qty.value * 49.95| currency }}</td>
+							</tr>
+						  </tbody>
+						</table>
+						<p>
+							<button name="submit" type="button" ng-click="openStripeHandler()" class="btn btn-store btn-block">Order Product</button>
+						</p>
+						<input type="hidden" name="submitted" id="submitted" value="true">
+					</div>
+
+				</div>
+					</form>
+
+			</div>
+		</section>
+
+		<section id="cta" class="padding-top-bottom color-bg light-typo">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-4 col-sm-4 news wow fadeInUp" data-wow-delay="0.2s" data-wow-offset="10">
+						<i class="icon-trophy iconBig"></i>
+						<h3>Quality guaranteed</h3>
+						<h3>12 Month Replacement Warranty </h3>
+					</div>
+					<div class="col-md-4 col-sm-4 news wow fadeInUp" data-wow-delay="0.4s" data-wow-offset="10">
+						<i class="icon-truck iconBig"></i>
+						<h3>Fast delivery</h3>
+						<h3>Distribution Centre strategically located on Australia’s premium freight corridor</h3>
+					</div>
+					<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s" data-wow-offset="10">
+						<i class="icon-lock iconBig news"></i>
+						<h3>Secure payment</h3>
+						<h3> Secure online payment gateway solutions </h3>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact" class="gray-bg padding-top-bottom">
+			<div class="container">
+				<header class="section-header text-center">
+					<h1><strong>Contact</strong></h1>
+					<p>Do you any questions or a problem with our products?</p>
+        </header>
+				<form action="index.html" novalidate id="contact-form">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-4 contact-info cta-message wow fadeInLeft">
+							<address>
+								<strong>Support@EarTear.com.au</strong><br>
+							</address>
+						</div>	
+
+						<div class="col-xs-12 col-sm-12 col-md-8 wow fadeInUp" >
+							<div class="form-group">
+								<label class="control-label" for="contact-name">Name</label>
+								<div class="controls">
+									<input id="contact-name" name="contactName" placeholder="Your name" class="form-control input-lg requiredField" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="control-label" for="contact-mail">Email</label>
+								<div class=" controls">
+									<input id="contact-mail" name="email" placeholder="Your email" class="form-control input-lg requiredField" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="control-label" for="contact-message">Message</label>
+								<div class="controls">
+									<textarea id="contact-message" name="comments" placeholder="Your message" class="form-control input-lg requiredField" rows="5"></textarea>
+								</div>
+							</div>
+							<p>
+								<button name="submit" type="submit" class="btn btn-store btn-block">Send Message</button></p>
+							<input type="hidden" name="submitted" id="submitted3" value="true">
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<footer id="main-footer" class="dark-bg light-typo">
+			<div class="container">
+				<p class="pull-left copyright wow fadeInUp">&copy; EarTear 2015. <br> Designed by Darcy.<br>
+				</p>
+
+				<div class="pull-right paymentMethodImg copyright wow fadeInRight">
+					<a class="btn btn-store outline" href="#" data-toggle="modal" data-target=".text-modal">Terms & conditions</a>
+				</div>
+			</div>
+		</footer>
+
+		<div class="modal fade text-modal" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="color-bg">	
+						<div class="container">
+							<div class="row ">
+								<div class="col-xs-12 col-sm-12 col-md-12 color-bg light-typo" id="9modal-bar">
+									<h2 class="pull-left">TERMS & CONDITIONS</h2>
+									<a class="close pull-right" href="#" data-dismiss="modal" ><i class="icon-close"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row ">
+							<div class="col-xs-12 col-sm-6 col-md-6" >	
+								<h3>Pricing policy</h3>
+								<p>Prices are shown in $ (AUD). Prices do not include service, payment and delivery charges. Orders may be subjected to local taxes and/or import duties at your own expense.
+								Tax-free shopping on EarTear.com.au is not available.
+								EarTear withhold the right to change prices of the products. The prices of the products will, during the time of placing an order, be valid throughout the process. We however take reservations for typing errors.</p>
+								<h3>Order confirmation</h3>
+								<p>You will receive an order confirmation by e-mail shortly after placing your order. On rare occasions an item can be out of stock. Then you will be informed by e-mail.</p>
+								<h3>Shipping</h3>
+								<p>We know that you can’t wait to get your order so we do our best to ship your order on the following working day. To follow the goods way to your closet you can track your order with the tracking number included in your shipping confirmation, which you get by e-mail as soon as we dispatch your order.
+								Your order will be dispatched within 1-3 workdays from the time you place your order. When your order is dispatched, you will receive a shipping confirmation by e-mail. Orders to Denmark above 200€ and all international orders will include a tracking number to your shipping confirmation. All orders within EU are shipped via GLS and outside Europe orders are shipped via TNT, UPS and FedEx.
+								The following shipping charges will be added to your order:<br>
+								Australia: $5 AUD <br>
+								 Rest of the world: 15 AUD <br>
+								Danish orders will be delivered within 1-3 days from the day you received your shipping confirmation.
+								International orders will be delivered within 1-10 days from the day you received your shipping confirmation.
+								Orders are not shipped or delivered on weekends and holidays. If a delivery suffers a delay or an item happens to be out of stock, you will be informed by e-mail as quick as possible and latest 30 days after the order was placed. Some delays may occur during sales, very busy periods, public holidays and severe weather conditions.
+								Please notice that we are unable to deliver to P.O. box adresses.</p>
+								<h3>Returns</h3>
+								<p>If you change your mind about an item you must notify us within 14 days after having received your purchase and ship it to earTear within the following 14 days from having notified us. To return an order please contact support@eartear.com.au and await our return confirmation. When received, you can return your order by the following procedure:
+								Make sure that the product is still in perfect condition with undamaged packaging and tags still attached. We reserve the right to refuse any returns that do not match with these critetia:</p>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-6" >
+								<p><br><br>Place the product in a shipping box or plastic bag. Hats and caps must be returned in a box so they do not get squashed out of shape.
+								Enclose the original sales receipt to the product.
+								Write RETURN on the package to ensure a faster expedition.
+								<!--Send the package to: microStore, 84 State Road 123, City, State 24813-->
+								The return and financial responsibility is yours until it reaches EarTear and are confirmed by a delivery confirmation. Please notice that we can exchange your items to another size or color if available in stock.</p>
+								<!--<h3>Warranty claims</h3>-->
+								<!--<p>There is a 2 years warranty on all products sold on www.microStore.com. This warranty covers manufacturing faults only, not wear and tear from regular use. Please contact us at shop@microStore.com if you have a warranty claim, including order number, photos of the claim area and a description of the claim.</p>-->
+								<h3>Disclaimer</h3>
+								<p>EarTear does not guarantee that all items shown are in stock at the time of your order. In the event that an item is unavailable for whatever reason, EarTear will contact you by e-mail. Although we do our best to display correct images, correct colours, info and prices, errors may occur.</p>
+								<h3>Privacy policy</h3>
+								<p>All your personal information is handled under strict confidence. EarTear will never give any of your personal information to 3rd parties.All information is encrypted for safety.</p>
+								<h3>Security</h3>
+								<p>For the safety of your personal information, we use SLL encryption on all data to and from the site. When placing an order, you can immediately check the security validity by clicking the padlock icon that appears in the URL line of your browser when SSL is activated.</p>
+								<h3>Cookies</h3>
+								<p>Cookies are used by EarTear in order to improve your experience when browsing and using the website. The cookie identifies your computer and allows the site to remember your personal settings. EarTear may not operate properly when cookies are disabled in your web browser.</p>
+								<h3>Measurements</h3>
+								<p>All measurements are approximate and variance may occur. We have done our best but please have average sizing in mind and note that +/- 1cm on each measurement may occur.</p>
+								<h3>Age restrictions</h3>
+								<p>Parental or guardian consent is required for customers under the age of 18.</p>
+								<h3>Governing law</h3>
+								<p>The terms of use are complied in accordance with Danish law and the Danish courts will have exclusive jurisdiction.
+								</p>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-12 text-center" >	
+								<a class="btn btn-store" href="#" data-dismiss="modal">Back to shop</a><br><br>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular.min.js"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://checkout.stripe.com/checkout.js"></script>
+		<script type="text/javascript" src="js/jquery.singlePageNav.min.js"></script>
+		<script type="text/javascript" src="js/jquery.superslides.min.js"></script>
+		<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+		<script type="text/javascript" src="js/wow.min.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+	</body>
+</html>
