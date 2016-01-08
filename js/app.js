@@ -1,6 +1,6 @@
 angular.module('storeApp', [])
 
-  .controller('orderController', function($scope, $http, $httpParamSerializerJQLike) {
+  .controller('orderController', function($scope, $http, $location, $httpParamSerializerJQLike) {
 
   $scope.options = [
     { label: '0', value: 0 },
@@ -64,16 +64,9 @@ angular.module('storeApp', [])
           }
     }).
       then(function(response) {
-        //$scope.status = response.status;
-        console.log(response.status);
-        console.log("something")
-        //$scope.data = response.data;
-        console.log(response.data);
+        $location.path("eartear.com.au/success.html");
       }, function(response) {
-        //$scope.data = response.data || "Request failed";
-        //$scope.status = response.status;
-        console.log(response.error)
-        console.log(response.status);
+        $location.path("eartear.com.au/error.html");
     });
 
   };
