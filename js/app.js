@@ -72,7 +72,7 @@ angular.module('storeApp', [])
   };
 
     var stripeHandler = StripeCheckout.configure({
-      key: 'pk_test_VN6Rcp9fk9AKC8Grprg6ryt6',
+      key: 'pk_test_aQG8EDm80kh72T8Ue7SAYvLQ',
       // key: 'pk_test_q8NAb1ewbs64MPgELxVLCC1K',
       image: 'img/navlogo-blue.png',
       color: 'blue',
