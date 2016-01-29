@@ -1,6 +1,6 @@
 angular.module('storeApp', [])
 
-  .controller('orderController', function($scope, $http, $location, $httpParamSerializerJQLike) {
+  .controller('orderController', function($scope, $http, $window, $httpParamSerializerJQLike) {
 
   $scope.options = [
     { label: '0', value: 0 },
@@ -64,9 +64,9 @@ angular.module('storeApp', [])
           }
     }).
       then(function(response) {
-        window.location.href = "https://eartear.com.au/success.html";
+         $window.location.href = "https://eartear.com.au/success.html";
       }, function(response) {
-         window.location.href = "https://eartear.com.au/error.html";
+         $window.location.href = "https://eartear.com.au/error.html";
     });
 
   };
