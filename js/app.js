@@ -72,7 +72,7 @@ angular.module('storeApp', [])
   };
 
     var stripeHandler = StripeCheckout.configure({
-      key: 'pk_test_aQG8EDm80kh72T8Ue7SAYvLQ',
+      key: 'pk_live_mOfll4JJOhhEQczFwjYgyqG1',
       // key: 'pk_test_q8NAb1ewbs64MPgELxVLCC1K',
       image: 'img/navlogo-blue.png',
       color: 'blue',
@@ -86,7 +86,7 @@ angular.module('storeApp', [])
       stripeHandler.open({
         name: 'EarTear',
         description: 'micro headphone',
-        success_redirect_url:"http://darcys22.github.io/eartear/success.html",
+        success_redirect_url:"https://eartear.com.au/success.html",
         amount: getAmountCents()
       });
     }
